@@ -13,18 +13,18 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <nav className="flex items-center justify-between">
           <Link href="/">
-            <span className="text-white font-bold text-xl cursor-pointer">Ultimate Builds UK</span>
+            <span className="text-white font-bold text-xl cursor-pointer">Import Britannia</span>
           </Link>
           <div className="hidden md:flex">
             <ul className="flex space-x-4">
               <li>
                 <Link href="/browse">
-                  <span className="text-white hover:text-gray-300 cursor-pointer">Browse</span>
+                  <span className="text-white hover:text-gray-300 cursor-pointer">Request</span>
                 </Link>
               </li>
               <li>
                 <Link href="/customize">
-                  <span className="text-white hover:text-gray-300 cursor-pointer">Customize</span>
+                  <span className="text-white hover:text-gray-300 cursor-pointer">About</span>
                 </Link>
               </li>
               <li>
